@@ -46,7 +46,7 @@ ul{padding-left:21px}a{overflow-wrap:anywhere}
 <footer><div class="wrap">เว็บไซต์ต้นแบบสำหรับทดลองใช้งาน • ข้อมูลติดต่อและข้อมูลส่วนบุคคลต้องจัดการตามแนวทางคุ้มครองข้อมูลของหน่วยงาน</div></footer>
 <script>
 /* TODO: เปลี่ยน URL เป็นลิงก์ Google Forms ที่ทีมสร้างแล้ว */
-const FORM_URL = "";
+const FORM_URL = "https://docs.google.com/forms/u/2/d/1SwITXyrGM_Qh1aX-IejkE8JSCCfewilZoYkJE20DXXI/edit";
 document.getElementById("helpLink").href = FORM_URL || "#";
 document.getElementById("helpLink").addEventListener("click", function(e){
  if(!FORM_URL){e.preventDefault();alert("ยังไม่ได้ตั้งค่าลิงก์แบบฟอร์ม กรุณาทำตามคู่มือ README.txt ก่อนเผยแพร่เว็บไซต์");}
